@@ -2,28 +2,28 @@
 class Serenity < Formula
   desc "Mind map of your Claude Code sessions, in the terminal"
   homepage "https://github.com/mukkund1996/serenity"
-  version "0.6.0"
+  version "0.7.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/mukkund1996/serenity/releases/download/v0.6.0/serenity-darwin-arm64"
-      sha256 "4b1d3cdaf22b47afc0388650265404bb7e8c7025e266ceb93140a2a8bac3bbea"
+      url "https://github.com/mukkund1996/serenity/releases/download/v0.7.0/serenity-darwin-arm64"
+      sha256 "363bef4168a539cffc1b5c8028510eb31e4fc89f14a272c2f19c8dd4a5c17ac7"
     end
     on_intel do
-      url "https://github.com/mukkund1996/serenity/releases/download/v0.6.0/serenity-darwin-x64"
-      sha256 "209cbfcf828a9d9dc41bfdc74badf4a01f17f5c694b25659f1915659bea58498"
+      url "https://github.com/mukkund1996/serenity/releases/download/v0.7.0/serenity-darwin-x64"
+      sha256 "ea166dba42cde04f0adaa8545e06cd4cfa1b1198ed56e515e5b48e3e672696bf"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/mukkund1996/serenity/releases/download/v0.6.0/serenity-linux-arm64"
-      sha256 "cd220918650918c8675f5aee68514ff21793a43b8050ba0cd6f145905d5a00c7"
+      url "https://github.com/mukkund1996/serenity/releases/download/v0.7.0/serenity-linux-arm64"
+      sha256 "5e5207e09a7fd6508129b972ae67d7831de72f4ae7c876677b956d779152a22d"
     end
     on_intel do
-      url "https://github.com/mukkund1996/serenity/releases/download/v0.6.0/serenity-linux-x64"
-      sha256 "d2b4f5f657ab5a9ae9dc2603a16c28904f0df9e36183b53ca33fe2082d70ff31"
+      url "https://github.com/mukkund1996/serenity/releases/download/v0.7.0/serenity-linux-x64"
+      sha256 "181529c6202869ef575759509a403163296e759b1cc2d9e3fcd3db00330b2260"
     end
   end
 
