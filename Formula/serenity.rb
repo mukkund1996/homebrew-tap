@@ -2,28 +2,28 @@
 class Serenity < Formula
   desc "Mind map of your Claude Code sessions, in the terminal"
   homepage "https://github.com/mukkund1996/serenity"
-  version "0.10.0"
+  version "0.11.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/mukkund1996/serenity/releases/download/v0.10.0/serenity-darwin-arm64"
-      sha256 "4f28e8da72c910215c6a912d639a5399f9cfaf80fdf051c9dafb3f0167ca34ae"
+      url "https://github.com/mukkund1996/serenity/releases/download/v0.11.0/serenity-darwin-arm64"
+      sha256 "9cea293c3b20968643e390aae98a6d7c040a71756b02598ed1babf2ea385d85f"
     end
     on_intel do
-      url "https://github.com/mukkund1996/serenity/releases/download/v0.10.0/serenity-darwin-x64"
-      sha256 "97a2cac2bf2e8cc964b9d9f0c1fd34f17a90efd593245d82748ac93ed094f6c8"
+      url "https://github.com/mukkund1996/serenity/releases/download/v0.11.0/serenity-darwin-x64"
+      sha256 "9fbf02de6400b95c3130d89906b9464fe88621b4baa513b1e33105d0064d7ae5"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/mukkund1996/serenity/releases/download/v0.10.0/serenity-linux-arm64"
-      sha256 "cf540c59676d542361c73c871313e4706b538fe46b9165f8b1152f8777b2ce54"
+      url "https://github.com/mukkund1996/serenity/releases/download/v0.11.0/serenity-linux-arm64"
+      sha256 "4cb95a26cd53faf6be2e8afd28ebe2456c09a0f1173e47e83bcfa1aaf50dd401"
     end
     on_intel do
-      url "https://github.com/mukkund1996/serenity/releases/download/v0.10.0/serenity-linux-x64"
-      sha256 "485e583e1f778a72361fad57f097ff226f934a1498b526310bc03df2fd0d2cc2"
+      url "https://github.com/mukkund1996/serenity/releases/download/v0.11.0/serenity-linux-x64"
+      sha256 "94a12ebea58de4c2cca68e3963217c5f7534ec19ed0070af027136822e55def2"
     end
   end
 
@@ -41,7 +41,9 @@ class Serenity < Formula
         brew install --cask claude-code
       Log in to GitHub for PR status:
         gh auth login
-      Then run `serenity` inside any git repo.
+      Then run `serenity` inside any git repo. The first map you open
+      starts learn-serenity, a short tour of serenity.
+      Docs: https://getserenity.dev/docs/
     EOS
   end
 
