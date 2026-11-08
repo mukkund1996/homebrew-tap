@@ -2,28 +2,28 @@
 class Serenity < Formula
   desc "Mind map of your Claude Code sessions, in the terminal"
   homepage "https://github.com/mukkund1996/serenity"
-  version "0.12.0"
+  version "0.13.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/mukkund1996/serenity/releases/download/v0.12.0/serenity-darwin-arm64"
-      sha256 "b4b53ae9b43f4ad2f889c9104b94664c94203eda148bfb9ac9473e38b631b5b5"
+      url "https://github.com/mukkund1996/serenity/releases/download/v0.13.0/serenity-darwin-arm64"
+      sha256 "8d1269c6c427a92e32debd3db731cf66e5d5914a14a79eaeb81f8b00c28ac815"
     end
     on_intel do
-      url "https://github.com/mukkund1996/serenity/releases/download/v0.12.0/serenity-darwin-x64"
-      sha256 "1c210cc449eb6b1770b7f3777306bf1a3271831c0872954938247e073a650864"
+      url "https://github.com/mukkund1996/serenity/releases/download/v0.13.0/serenity-darwin-x64"
+      sha256 "92fb5368d0f6e84a7664feedc29b2714c371d2843c8e3941da0f05d73ed92834"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/mukkund1996/serenity/releases/download/v0.12.0/serenity-linux-arm64"
-      sha256 "b47d51fe19c3a7e805e0e564a2f6285837cd0db40cade3b04df2179911782f18"
+      url "https://github.com/mukkund1996/serenity/releases/download/v0.13.0/serenity-linux-arm64"
+      sha256 "7ffb771624f5fb7d3267ffe12a76b627478fcbad37014ad6c839e782c0bc8d68"
     end
     on_intel do
-      url "https://github.com/mukkund1996/serenity/releases/download/v0.12.0/serenity-linux-x64"
-      sha256 "151ed42523e9ed4858d1dbd7f2900476716ff6126d94463fde93a897f7dd560b"
+      url "https://github.com/mukkund1996/serenity/releases/download/v0.13.0/serenity-linux-x64"
+      sha256 "3096ceef3d74441f81200745c7e99facd0ce65a1b1e0ec2b975ea1fe7a828845"
     end
   end
 
@@ -41,9 +41,14 @@ class Serenity < Formula
         brew install --cask claude-code
       Log in to GitHub for PR status:
         gh auth login
-      Then run `serenity` inside any git repo. The first map you open
-      starts learn-serenity, a short tour of serenity.
-      Docs: https://getserenity.dev/docs/
+
+      Next:
+        1. cd into a git repo you work in   cd ~/path/to/your/repo
+        2. open serenity                    serenity
+        First run: import past sessions, connect GitHub and Slack, take a short tour.
+        Docs: https://getserenity.dev/docs/
+
+      ★ Like it? Star the repo: https://github.com/mukkund1996/serenity
     EOS
   end
 
